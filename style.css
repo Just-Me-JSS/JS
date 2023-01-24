@@ -2,3 +2,27 @@
     padding: 0;
     margin: 0;
 }
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    font-size: 20px;
+}
+.nav__link {
+    color: rgb(35, 146, 183);
+    /* text-decoration: none; */
+    margin: 0 10px;
+}
+.nav__link:hover {
+    text-decoration: dotted;
+}
+.marquee {
+    border: 1px solid #000;
+    border-top: 20px;
+}
+.section-start {
+    display: flex;
+    justify-content: center;
+}
